@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: How-Tos
+  url: /how-tos/
+
+- title: RubyGem
+  url: https://rubygems.org/gems/kajiki
+
+- title: RubyDoc
+  url: http://www.rubydoc.info/github/kenjij/kajiki
+
+- title: Repository
+  url: https://github.com/kenjij/kajiki

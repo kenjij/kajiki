@@ -1,0 +1,38 @@
+# Global
+timezone: America/Los_Angeles
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Site settings
+title: Kajiki
+description: Kajiki is a simple Ruby gem to build daemons.
+url: "http://www.kenj.rocks/kajiki" # the base hostname & protocol for your site
+
+# Build settings
+markdown: redcarpet
+
+# Site owner
+owner:
+  name: Ken J
+  avatar: https://pbs.twimg.com/profile_images/117916388/twitter.png
+  bio: "Laziness is mother of creativity."
+  web: http://www.kenj.rocks/
+  email: 
+  disqus-shortname: 
+  twitter: kenjij
+  facebook: 
+  google:
+    plus: Kenjij
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: kenjij
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  youtube: 
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
