@@ -54,10 +54,10 @@ module Kajiki
       check_existing_pid
       puts "Starting process..."
       Process.daemon if @opts[:daemonize]
-      change_privileges if opts[:auto_default_actions]
-      redirect_outputs if opts[:auto_default_actions]
+      change_privileges if @opts[:auto_default_actions]
+      redirect_outputs if @opts[:auto_default_actions]
       write_pid
-      trap_default_signals if opts[:auto_default_actions]
+      trap_default_signals if @opts[:auto_default_actions]
       block.call('start')
     end
 
