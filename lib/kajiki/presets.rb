@@ -5,7 +5,7 @@ module Kajiki
 
   # Description strings for help display.
   OPT_DESCS = {
-    banner: "Usage: #{$0} [options] {#{SUB_COMMANDS.join('|')}}",
+    banner: "Usage: #{File.basename($0)} [options] {#{SUB_COMMANDS.join('|')}}",
     address: 'Bind to address',
     daemonize: 'Run in the background',
     error: 'Output error to file',
@@ -39,6 +39,7 @@ module Kajiki
       end
     when :server
       Trollop.options do
+        banner OPT_DESCS[:banner]
         opt :address, OPT_DESCS[:address], default: '0.0.0.0'
         opt :daemonize, OPT_DESCS[:daemonize]
         opt :error, OPT_DESCS[:error], type: :string
