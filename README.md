@@ -1,5 +1,7 @@
 # Kajiki
 
+[![Gem Version](https://badge.fury.io/rb/kajiki.svg)](http://badge.fury.io/rb/kajiki)
+
 A simple gem to build daemons.
 
 It provides basic functions to start and stop a daemon process. It also parses command-line options.
