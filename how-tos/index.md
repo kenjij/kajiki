@@ -46,7 +46,7 @@ Help would look like this.
 
 ```
 $ ruby server.rb -h
-Options:
+Usage: server.rb [options] {start|stop}
   -a, --address=<s>    Bind to address (default: 0.0.0.0)
   -d, --daemonize      Run in the background
   -e, --error=<s>      Output error to file
@@ -70,6 +70,28 @@ To stop the server, only the PID file is essential.
 
 ```
 $ ruby server.rb -P ~/server.pid stop
+```
+
+### Toggling Options
+
+Some options can be toggled from the default by calling the method like this.
+
+```ruby
+Kajiki.preset_options(:server, {config: true, error: false, user: false})
+```
+
+This would produce a slightly different help from the above.
+
+```
+$ ruby server.rb -h
+Usage: server.rb [options] {start|stop}
+  -a, --address=<s>    Bind to address (default: 0.0.0.0)
+  -c, --config=<s>     Load config from file
+  -d, --daemonize      Run in the background
+  -l, --log=<s>        Log output to file
+  -P, --pid=<s>        Store PID to file
+  -p, --port=<i>       Use port (default: 4567)
+  -h, --help           Show this message
 ```
 
 <a id="hard-way"></a>
