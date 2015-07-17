@@ -45,6 +45,7 @@ module Kajiki
       @opts[:pid] = File.expand_path(@opts[:pid]) if @opts[:pid_given]
       @opts[:log] = File.expand_path(@opts[:log]) if @opts[:log_given]
       @opts[:error] = File.expand_path(@opts[:error]) if @opts[:error_given]
+      @opts[:config] = File.expand_path(@opts[:config]) if @opts[:config_given]
     end
 
     # Start the process with the given block.

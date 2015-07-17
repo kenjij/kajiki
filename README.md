@@ -1,6 +1,6 @@
 # Kajiki
 
-[![Gem Version](https://badge.fury.io/rb/kajiki.svg)](http://badge.fury.io/rb/kajiki)
+[![Gem Version](https://badge.fury.io/rb/kajiki.svg)](http://badge.fury.io/rb/kajiki) [![Code Climate](https://codeclimate.com/github/kenjij/kajiki/badges/gpa.svg)](https://codeclimate.com/github/kenjij/kajiki) [![security](https://hakiri.io/github/kenjij/kajiki/master.svg)](https://hakiri.io/github/kenjij/kajiki/master)
 
 A simple gem to build daemons.
 
