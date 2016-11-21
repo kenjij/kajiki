@@ -8,7 +8,7 @@ sass:
 # Site settings
 title: Kajiki
 description: Kajiki is a simple Ruby gem to build daemons.
-url: "http://www.kenj.rocks/kajiki" # the base hostname & protocol for your site
+url: "https://kenjij.github.io/kajiki" # the base hostname & protocol for your site
 
 # Build settings
 markdown: redcarpet
@@ -18,7 +18,7 @@ owner:
   name: Ken J
   avatar: https://pbs.twimg.com/profile_images/117916388/twitter.png
   bio: "Laziness is mother of creativity."
-  web: http://www.kenj.rocks/
+  web: https://kenjij.github.io/
   email: 
   disqus-shortname: 
   twitter: kenjij
