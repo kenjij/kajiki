@@ -22,13 +22,13 @@ module Kajiki
   def self.preset_options(preset, options = {})
     case preset
     when :minimal
-      Trollop.options do
+      Optimist.options do
         banner OPT_DESCS[:banner]
         opt :daemonize, OPT_DESCS[:daemonize]
         opt :pid, OPT_DESCS[:pid], type: :string
       end
     when :simple
-      Trollop.options do
+      Optimist.options do
         banner OPT_DESCS[:banner]
         opt :config, OPT_DESCS[:config], type: :string if options[:config]
         opt :daemonize, OPT_DESCS[:daemonize]
@@ -40,7 +40,7 @@ module Kajiki
         depends(:user, :group) unless options[:user] == false
       end
     when :server
-      Trollop.options do
+      Optimist.options do
         banner OPT_DESCS[:banner]
         opt :address, OPT_DESCS[:address], default: '0.0.0.0'
         opt :config, OPT_DESCS[:config], type: :string if options[:config]
