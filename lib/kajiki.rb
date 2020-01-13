@@ -1,4 +1,4 @@
-require 'kajiki/trollop'
+require 'kajiki/optimist'
 require 'kajiki/presets'
 require 'kajiki/runner'
 
