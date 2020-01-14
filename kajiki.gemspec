@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "kajiki"
-  s.version       = "1.1.1"
+  s.version       = "1.2.0"
   s.authors       = ["Ken J."]
   s.email         = ["kenjij@gmail.com"]
   s.description   = %q{A simple gem to build daemons}

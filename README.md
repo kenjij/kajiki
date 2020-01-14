@@ -10,7 +10,7 @@ It provides basic functions to start and stop a daemon process. It also parses c
 
 - Ruby 2.0.0 <=
 
-Kajiki has no gem dependencies. It uses [Trollop](https://rubygems.org/gems/trollop), but it's embedded.
+Kajiki has no gem dependencies. It uses [Optimist](https://rubygems.org/gems/optimist), but it's embedded.
 
 ## Getting Started
 
